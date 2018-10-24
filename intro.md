@@ -1,6 +1,6 @@
 # Some definitions
 
-**Algorithm:** methods for solving problems that are suited for computer implementation.
+**Algorithm:** methods for solving problems that are suited for computer implementation.  
 **Data structures:** schemes for organizing data that leave them amenable to efficient processing by an algorithm.
 
 # Arrays
