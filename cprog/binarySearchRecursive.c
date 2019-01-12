@@ -1,43 +1,39 @@
-/* A is the Array, n = size of array, T= target value to search
- * procedure binary_search(A, n, T):
-    L := 0
-    R := n − 1
-    while L <= R:
+/* A is the Array, L = lower bound of array, R = upper bound of array, T= target value to search
+ * procedure binary_search(A, L, R, T):
+    if R>=L:
         m := floor((L + R) / 2)
-        if A[m] < T:
-            L := m + 1
-        else if A[m] > T:
-            R := m - 1
+				if A[m] ==  T:
+				    return m
+        if A[m] > T:
+            return binary_search(A, L , m - 1, T)
         else:
-            return m
+            return binary_search(A, m+1, R, T)
     return unsuccessful
  end procedure
  */
 #include<math.h>
 #include<stdio.h>
 #include<stdlib.h>
-int binary_search(int A[], int n, int T);
+int binary_search(int A[], int L, int R, int T);
 
-int binary_search(int A[], int n, int T)
+int binary_search(int A[], int L, int R, int T)
 {
-  int l,r,m=-1;
-	l=0;
-	r = n-1;
-	while(l<=r)
+ int m;
+	if(R>=L)
 	{
-		 m = floor((l+r)/2);
-		 if(A[m] < T)
+		 m = floor((L+R)/2);
+		 if(A[m]== T)
 		 {
-			 l = m + 1;
+			 return m; 
+			 exit(1);
 		 }
 		 else if(A[m] > T)
 		 {
-			 r = m - 1;
+			 return binary_search(A, L,  m - 1, T);
 		 }
 		 else 
 		 {
-       return m;
-       break;
+       return binary_search(A, m+1, R, T);
 		 }
 	}
    return -1;
@@ -81,7 +77,7 @@ void main()
 	printf("\nEnter element to search\t");
 	scanf("%d", &search);
 
-	result= binary_search(arr, MAX, search);
+	result= binary_search(arr, 0, MAX-1, search);
 
 	if(result == -1)
 	{
