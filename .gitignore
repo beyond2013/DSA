@@ -1,4 +1,6 @@
-*~
-cprog/bin/*
-./bin*
-*.swp
+# ignore everything in the root
+/*
+
+!.gitignore
+!*.md
+!cprog/*
