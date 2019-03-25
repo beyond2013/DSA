@@ -35,3 +35,22 @@ POP(STACK, TOP, ITEM)
 4. Return.
 ```
 
+
+## Using Stack as a tool to evaluate arithmetic expressions in reverse Polish notation
+---
+
+
+Following Algorithm finds the VALUE of an arithmetic expression  P written in postfix notation.
+
+```
+1. Add a right parenthesis ")" at the end of P.  
+2. Scan P from left to right and repeat Step 3 and 4 for each element of P until ) is encountered.  
+3. If an operand is encountered, put it on STACK.  
+4. If an operator is encountered, then:  
+  a) Remove the two top elements of STACK, where A is the top element and B is the next-to-top element.  
+	b) Evaluate B opr A.  
+	c) Push the result of b) back on STACK.
+  [End of If structure]
+[End of Step 2 loop]
+5. Set VALUE equal to the top element of STACK.
+6. Exit.
