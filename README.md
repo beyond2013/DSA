@@ -12,7 +12,7 @@ Abstract data types, complexity analysis, Big Oh notation, Stacks (linked lists 
 
 Mid term Exam: 30 marks   
 Terminal Exam: 40 marks  
-Quizes:        15 marks  
+Quizzes:       15 marks  
 Assignment:    15 marks  
 
 ## Reference Materials:
@@ -23,6 +23,7 @@ Assignment:    15 marks
 4. Data Structures and Abstractions with Java by Frank M. Carrano & Timothy M. Henry
 5. Data Structures and Algorithm Analysis in C++ by Mark Allen Weiss
 6. Java Software Structures: Designing and Using Data Structures by John Lewis and Joseph Chase
+
 ## Online Resources:
 
 1. https://www.coursera.org/learn/algorithms-part1  
