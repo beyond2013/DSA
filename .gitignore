@@ -4,4 +4,6 @@
 !*.md
 !cprog/*
 !pastpapers/*
-!markdown/*
+
+
+markdown/*.md
