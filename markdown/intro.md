@@ -14,6 +14,7 @@
 - Group items: are data items that are divided into subitems
 - e.g. an employee's name may be divided into first name and last name
 - Elementary items: data items that are not divided into sub items
+- e.g. to record the gender information using a single character F for female, M for male
 - Entity: something that has certain attributes or properties, which may be assigned values
 - e.g. and employee of a particular organization
 
