@@ -1,7 +1,7 @@
 # ignore everything in the root
 /*
 !.gitignore
-!*.md
+!README.md
 !cprog/*
 !pastpapers/*
 
