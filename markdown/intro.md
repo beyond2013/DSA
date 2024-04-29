@@ -18,6 +18,11 @@
 - Entity: something that has certain attributes or properties, which may be assigned values
 - e.g. and employee of a particular organization
 
+| Attributes: | Name      | Age | Gender | CNIC            |
+|-------------|-----------|-----|--------|-----------------|
+| Values      | Ali Ahmed | 46  | M      | 54401-6835799-8 |
+
+
 
 
 **Algorithm:** methods for solving problems that are suited for computer implementation.  
