@@ -1,6 +1,5 @@
 # ignore everything in the root
 /*
-
 !.gitignore
 !*.md
 !cprog/*
