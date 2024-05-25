@@ -1,4 +1,29 @@
-# Some definitions
+# Data Structures and Algorithms
+
+## Introduction
+- basic terminology and concept
+- relevant examples
+- overview of data organization and data structures
+- different operations applied to data structures
+- algorithm and its complexity
+- time space tradeoff 
+
+## Basic terminology
+- Data : are values or set of values
+- Data item : refers to a single unit of values
+- Group items: are data items that are divided into subitems
+- e.g. an employee's name may be divided into first name and last name
+- Elementary items: data items that are not divided into sub items
+- e.g. to record the gender information using a single character F for female, M for male
+- Entity: something that has certain attributes or properties, which may be assigned values
+- e.g. and employee of a particular organization
+
+| Attributes: | Name      | Age | Gender | CNIC            |
+|-------------|-----------|-----|--------|-----------------|
+| Values      | Ali Ahmed | 46  | M      | 54401-6835799-8 |
+
+
+
 
 **Algorithm:** methods for solving problems that are suited for computer implementation.  
 **Data structures:** schemes for organizing data that leave them amenable to efficient processing by an algorithm.
