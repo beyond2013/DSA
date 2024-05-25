@@ -6,7 +6,44 @@ Course Logistics for Data Structures and Algorithm
 ## Prerequisites: Programming Fundamentals
 
 ## Course Content:
-searching an unsorted array, binary search for sorted arrays, Abstract data types, complexity analysis, Big Oh notation, Stacks (linked lists and array implementations), Recursion and analyzing recursive algorithms, divide and conquer algorithms, Sorting algorithms (selection, insertion, merge, quick, bubble, heap, shell, radix, bucket), queue, dequeuer, priority queues (linked and array implementations of queues), linked list & its various types, sorted linked list, , hashing and indexing, open addressing and chaining, trees and tree traversals, binary search trees, heaps, M-way tress, balanced trees, graphs, breadth-first and depth-first traversal, topological order, shortest path, adjacency matrix and adjacency list implementations, memory management and garbage collection.  
+
+**1. Foundational Concepts:**
+  * Abstract Data Types (ADTs)
+  * Big Oh Notation (Complexity Analysis)
+**2. Data Structures:**
+  * Stacks (Array and Linked List Implementations)
+  * Queues  (Array and Linked List Implementations)
+  * Dequeues
+  * Priority Queues (Array and Linked List Implementations)
+  * Linked Lists (Singly, Doubly, Circular)
+  * Trees and Tree Traversals (Preorder, Inorder, Postorder)
+  * Binary Search Trees
+  * Heaps
+  * M-way Trees 
+  * Balanced Trees (e.g., AVL Trees, Red-Black Trees)
+  * Graphs
+  * Adjacency Matrix and Adjacency List Implementations (for Graphs)
+**3. Algorithms:**
+  * Searching Algorithms:
+    * Linear Search (for unsorted arrays)
+    * Binary Search (for sorted arrays)
+  * Recursion and Analyzing Recursive Algorithms
+  * Divide and Conquer Algorithms
+  * Sorting Algorithms:
+    * Selection Sort
+    * Insertion Sort
+    * Merge Sort
+    * Quick Sort
+    * Bubble Sort 
+    * Heap Sort
+    * Shell Sort
+    * Radix Sort (also known as Bucket Sort) 
+  * Shortest Path Algorithms (related to Graphs)
+  * Topological Sort (related to Directed Acyclic Graphs)
+**4. Advanced Concepts:**
+  * Hashing and Indexing
+  * Open Addressing and Chaining (related to Hashing)
+  * Memory Management and Garbage Collection
 
 ## Course Assessment:
 
