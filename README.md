@@ -9,8 +9,8 @@ Course Logistics for Data Structures and Algorithm
 
 **1. Foundational Concepts:**
   * Abstract Data Types (ADTs)
-  * Big Oh Notation (Complexity Analysis)
-**2. Data Structures:**
+  * Big Oh Notation (Complexity Analysis)  
+**2. Data Structures:**  
   * Stacks (Array and Linked List Implementations)
   * Queues  (Array and Linked List Implementations)
   * Dequeues
@@ -22,8 +22,8 @@ Course Logistics for Data Structures and Algorithm
   * M-way Trees 
   * Balanced Trees (e.g., AVL Trees, Red-Black Trees)
   * Graphs
-  * Adjacency Matrix and Adjacency List Implementations (for Graphs)
-**3. Algorithms:**
+  * Adjacency Matrix and Adjacency List Implementations (for Graphs)  
+**3. Algorithms:**  
   * Searching Algorithms:
     * Linear Search (for unsorted arrays)
     * Binary Search (for sorted arrays)
@@ -39,8 +39,8 @@ Course Logistics for Data Structures and Algorithm
     * Shell Sort
     * Radix Sort (also known as Bucket Sort) 
   * Shortest Path Algorithms (related to Graphs)
-  * Topological Sort (related to Directed Acyclic Graphs)
-**4. Advanced Concepts:**
+  * Topological Sort (related to Directed Acyclic Graphs)  
+**4. Advanced Concepts:**  
   * Hashing and Indexing
   * Open Addressing and Chaining (related to Hashing)
   * Memory Management and Garbage Collection
