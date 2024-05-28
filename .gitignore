@@ -1,9 +1,2 @@
-# ignore everything in the root
-/*
-!.gitignore
-!README.md
-!cprog/*
-!pastpapers/*
-
-
-markdown/*.md
+admin/*
+pastpapers/*
