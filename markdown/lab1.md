@@ -8,6 +8,14 @@ This lab manual is designed to provide you with hands-on experience with Python 
 
 In windows command prompt type `python --version` to check which version of python is installed.
 
+- Here is how take input from user and convert it to a floating point number
+
+```python
+# the input function takes a number and stores it as a string
+str_number = input("Enter a number")
+# following line convert the value of str_number to a floating point
+float_number = float(str_number)
+``` 
 
 ### Lab 1: Mathematical Functions with Python
 
@@ -25,16 +33,17 @@ print("Floor of", number, ":", math.floor(number))
 print("Absolute value of", number, ":", math.fabs(number))
 ```
 
-**ToDo:**
+**Exercise:**
 
-* Write a program to find the ceiling, floor and absolute value of 5 different user inputs.
-* Extend the program to identify if a number is positive, negative or zero.
-* here is how to tak input in python  
+One Pakistani Rupee consists of 100 Paisas. But coins of 1 paisa, 5 paisas, 10 paisas, 25 paisas, 50 paisas, 75 paisas, are not in circulation. You might have noticed that in daily shopping some other coins and notes are hardly exchanged, e.g. currency note or coin of 5 Rupees. 
 
-```python
-name = input("Enter your name: ")
-print("Hello", name)
-``` 
+In daily exchange people usually ignore small amounts above or below certain limits e.g. if a bill is of PKR 171, the actuall amount paid may be 170 and if the bill is of 169 the amount paid may be 170. 
+
+* Write code to use a function to generate random number and calculate what amount will acutally be paid. Your code should logically use both ceil and floor functions.
+
+- Suppose that people do not agree on paying more or less than their billing amount and a rule has to be introduced so that any amount above 5 Rupees will be treated as 10 PKR, and any amount below 5 Rupees will not be charged.
+
+* Write code to use a function to generate random number between 1 and 10 and calculate what amount will acutally be paid. 
 
 **1.2 Logarithms**
 
@@ -49,11 +58,11 @@ print("Logarithm of", number, "to base 2:", base_2)
 print("Logarithm of", number, "to base 10:", base_10)
 ```
 
-**ToDo:**
+**Exercise:**
 
-*  Write a program to calculate logarithms (base 2 and 10) for different user inputs.
-*  Plot a graph (using Matplotlib) that shows the change in value of logarithm with increasing base values (e.g., base 2 to base 10).
+*  Write a program to calculate logarithms (base 2) for the 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768
 
+* Write a program to calculate logarithms (base 10) for the values 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000, 10000000000
 
 ### Lab 2: Working with Strings
 
@@ -74,17 +83,17 @@ print("Length of the string:", string_length)
 print("Substring:", substring)
 ```
 
-**ToDo:**
+**Exercise:**
 
 * Write a program to find the length of different user-entered strings.
-*  Extract substrings based on user-provided starting and ending indexes.
+* Extract substrings based on user-provided starting and ending indexes.
 
 
 **2.2 String Concatenation and Trimming**
 
 ```python
-string1 = "Hello"
-string2 = " World!"
+string1 = "     Hello"
+string2 = " World!   "
 
 # Concatenate strings
 combined_string = string1 + string2
@@ -96,7 +105,7 @@ print("Combined String:", combined_string)
 print("Trimmed String:", trimmed_string)
 ```
 
-**ToDo:**
+**Exercise:**
 
 * Write a program to concatenate user-provided strings.
 *  Implement functions to remove leading/trailing whitespaces from a string.
@@ -127,10 +136,10 @@ plt.grid(True)
 plt.show()
 ```
 
-**ToDo:**
+**Exercise:**
 
 * Plot graphs for other linear functions (e.g., y = x, y = mx + c).
-*  Change the plot appearance by modifying elements like labels, title, and grid.
+* Change the plot appearance by modifying elements like labels, title, and grid.
 
 **3.2 Plotting Logarithmic and Quadratic Functions (Continued)**
 
@@ -160,7 +169,7 @@ plt.legend()  # Add legend to identify each line
 plt.show()
 ```
 
-**ToDo:**
+**Exercise:**
 
 *  Plot graphs for different logarithmic and quadratic functions by modifying the function definitions.
 *  Experiment with additional functionalities of Matplotlib like markers, line styles, and colors to customize the plot appearance.
