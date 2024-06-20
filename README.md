@@ -8,7 +8,7 @@ Course Logistics for Data Structures and Algorithm
 ## Course Content:
 
 **1. Foundational Concepts:**
-  * Abstract Data Types (ADTs)
+  * [Abstract Data Types (ADTs)](adt.md)
   * Big Oh Notation (Complexity Analysis)  
 
 **2. Data Structures:**  
