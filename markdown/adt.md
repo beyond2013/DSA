@@ -24,7 +24,7 @@ ADTs help programmers to:
 ## Common ADTs
 
 Here are some common types of ADTs you will encounter:
-<img src="../fig/list2.png" width="100" height="100" style="float:right">
+<img src="../fig/list2.png" width="100" height="100" align="right">
 1. **List**:
    - **Data**: A collection of items.
    - **Operations**: 
@@ -33,7 +33,7 @@ Here are some common types of ADTs you will encounter:
      + find an item
      + get the item at a specific position.
 
-<img src="../fig/stack.webp" width="100" height="100" style="float:right">
+<img src="../fig/stack.webp" width="100" height="100" align="right">
 
 2. **Stack**:
    - **Data**: A collection of items where the last item added is the first to be removed (LIFO - Last In, First Out).
@@ -42,7 +42,7 @@ Here are some common types of ADTs you will encounter:
      + Pop (remove the last item)
      + Peek (look at the last item without removing it).
 
-<img src="../fig/queue.png" width="152" height="100" style="float:right">
+<img src="../fig/queue.png" width="152" height="100" align="right">
 
 3. **Queue**:
    - **Data**: A collection of items where the first item added is the first to be removed (FIFO - First In, First Out).
@@ -51,7 +51,7 @@ Here are some common types of ADTs you will encounter:
      + Dequeue (remove the first item)
      + Front (look at the first item without removing it).
 
-<img src="../fig/set.png" width="152" height="100" style="float:right">
+<img src="../fig/set.png" width="152" height="100" align="right">
 
 4. **Set**:
    - **Data**: A collection of unique items.
@@ -60,7 +60,7 @@ Here are some common types of ADTs you will encounter:
      + remove an item
      + check if an item exists.
 
-<img src="../fig/dictionary.jpg" width="152" height="100" style="float:right">
+<img src="../fig/dictionary.jpg" width="152" height="100" align="right">
 
 5. **Map (or Dictionary)**:
    - **Data**: A collection of key-value pairs.
