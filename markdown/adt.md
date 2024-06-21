@@ -24,26 +24,50 @@ ADTs help programmers to:
 ## Common ADTs
 
 Here are some common types of ADTs you will encounter:
-
+<img src="../fig/list2.png" width="100" height="100" style="float:right">
 1. **List**:
    - **Data**: A collection of items.
-   - **Operations**: Add an item, remove an item, find an item, get the item at a specific position.
+   - **Operations**: 
+     + Add an item
+     + remove an item 
+     + find an item
+     + get the item at a specific position.
+
+<img src="../fig/stack.webp" width="100" height="100" style="float:right">
 
 2. **Stack**:
    - **Data**: A collection of items where the last item added is the first to be removed (LIFO - Last In, First Out).
-   - **Operations**: Push (add an item), Pop (remove the last item), Peek (look at the last item without removing it).
+   - **Operations**: 
+     + Push (add an item)
+     + Pop (remove the last item)
+     + Peek (look at the last item without removing it).
+
+<img src="../fig/queue.png" width="152" height="100" style="float:right">
 
 3. **Queue**:
    - **Data**: A collection of items where the first item added is the first to be removed (FIFO - First In, First Out).
-   - **Operations**: Enqueue (add an item), Dequeue (remove the first item), Front (look at the first item without removing it).
+   - **Operations**: 
+     + Enqueue (add an item)
+     + Dequeue (remove the first item)
+     + Front (look at the first item without removing it).
+
+<img src="../fig/set.png" width="152" height="100" style="float:right">
 
 4. **Set**:
    - **Data**: A collection of unique items.
-   - **Operations**: Add an item, remove an item, check if an item exists.
+   - **Operations**:
+     + Add an item
+     + remove an item
+     + check if an item exists.
+
+<img src="../fig/dictionary.jpg" width="152" height="100" style="float:right">
 
 5. **Map (or Dictionary)**:
    - **Data**: A collection of key-value pairs.
-   - **Operations**: Add a key-value pair, remove a key-value pair, find the value for a given key.
+   - **Operations**:
+     + Add a key-value pair
+     + remove a key-value pair
+     + find the value for a given key.
 
 ## Example: Stack ADT
 
