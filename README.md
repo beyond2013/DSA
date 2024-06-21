@@ -67,6 +67,5 @@ Assignment:    15 marks
 ## Online Resources:
 
 1. https://www.coursera.org/learn/algorithms-part1  
-2. https://www.edx.org/course/algorithms-and-data-structures-1  
-3. https://www.algoexpert.io/
-4. https://www.visualgo.net
+2. https://www.algoexpert.io/
+3. https://www.visualgo.net
