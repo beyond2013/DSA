@@ -67,3 +67,5 @@ Remember, ADTs are like blueprints. They tell us what we can do with our data, m
 ## Assignment
 - Find how many ADTs are provided by Standard Template Library (STL) of c++ 
 - Suppose you have 2 groups of friends, those who want to go to pizza party, and others who want to go for hiking, some interested in both pizza party and hiking, which ADT will allow you to store the 2 group of students and perform operations such as finding out how many friends are interested in both pizza party and hiking?
+
+- [DataFrame](https://pandas.pydata.org/docs/reference/frame.html) is frequently used in data science to store and manipulate data. Look at the API and try to create a dataframe with atleast 10 rows. Call `head`, `tail`, `iloc`,`mean`, `min`, `max`, and `info` methods on the dataframe. 
