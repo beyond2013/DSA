@@ -2,7 +2,12 @@
 
 ## What Are Abstract Data Types?
 
-An Abstract Data Type (ADT) is a way to describe data and the operations that can be performed on that data without worrying about how those operations will be implemented. Think of it like a blueprint or a recipe. You know what you want to build or cook, but you don't need to know every detail about how to do it.
+- An Abstract Data Type (ADT) is a way to describe:
+  + data and 
+  + the operations that can be performed on that data
+  + without worrying about how those operations will be implemented.
+- Think of it like a blueprint or a recipe. 
+- You know what you want to build or cook, but you don't need to know every detail about how to do it.
 
 ## Why Are ADTs Important?
 
@@ -66,6 +71,12 @@ Remember, ADTs are like blueprints. They tell us what we can do with our data, m
 
 ## Assignment
 - Find how many ADTs are provided by Standard Template Library (STL) of c++ 
-- Suppose you have 2 groups of friends, those who want to go to pizza party, and others who want to go for hiking, some interested in both pizza party and hiking, which ADT will allow you to store the 2 group of students and perform operations such as finding out how many friends are interested in both pizza party and hiking?
+- Suppose you have 2 groups of friends,
+  + Group 1: who want to go to pizza party, and
+  + Group 2: who want to go for hiking,
+- Some interested in both pizza party and hiking
+- Which ADT will allow you to store the 2 group of students and perform operations such as finding out how many friends are interested in both pizza party and hiking?
 
-- [DataFrame](https://pandas.pydata.org/docs/reference/frame.html) is frequently used in data science to store and manipulate data. Look at the API and try to create a dataframe with atleast 10 rows. Call `head`, `tail`, `iloc`,`mean`, `min`, `max`, and `info` methods on the dataframe. 
+- [DataFrame](https://pandas.pydata.org/docs/reference/frame.html) is frequently used in data science to store and manipulate data.
+ + Look at the API and try to create a dataframe with atleast 10 rows.
+ + Call `head`, `tail`, `iloc`,`mean`, `min`, `max`, and `info` methods on the dataframe. 
