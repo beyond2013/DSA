@@ -1,14 +1,14 @@
-Credits: Contents presented here are taken from the book *Theory and problems of Data Structures* by *Seymour Lipschutz*.
+**Credits:** Contents presented here are taken from the book *Theory and problems of Data Structures* by *Seymour Lipschutz*.
 
-#Stacks
+# Stacks
 ---
 A stack is a list of elements in which an element may be inserted or deleted only at one end, called the *top* of the stack.  
 This means that elements are removed from a stack in the reverse order of that in which they were inserted into the stack.  
 
 Special terminology is used for the two basic operations associated with stacks.
 
-a) **Push** is the term used to insert an element into a stack.
-a) **Pop** is the term used to delete an element from a stack.
+a) **Push** is the term used to insert an element into a stack.  
+b) **Pop** is the term used to delete an element from a stack.
 
 ## Array Representation of Stacks
 ---

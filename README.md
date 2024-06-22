@@ -12,7 +12,7 @@ Course Logistics for Data Structures and Algorithm
   * [Big Oh Notation (Complexity Analysis)](markdown/complexity.md)
 
 **2. Data Structures:**  
-  * Stacks (Array and Linked List Implementations)
+  * [Stacks (Array and Linked List Implementations)](markdown/stacks.md)
   * Queues  (Array and Linked List Implementations)
   * Dequeues
   * Priority Queues (Array and Linked List Implementations)
