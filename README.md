@@ -9,7 +9,7 @@ Course Logistics for Data Structures and Algorithm
 
 **1. Foundational Concepts:**
   * [Abstract Data Types (ADTs)](markdown/adt.md)
-  * Big Oh Notation (Complexity Analysis)  
+  * [Big Oh Notation (Complexity Analysis)](markdown/complexity.md)
 
 **2. Data Structures:**  
   * Stacks (Array and Linked List Implementations)
