@@ -31,7 +31,7 @@ Course Logistics for Data Structures and Algorithm
     * [Binary Search (for sorted arrays)](markdown/BinarySearch.md)
   * Recursion and Analyzing Recursive Algorithms
   * Divide and Conquer Algorithms
-  * Sorting Algorithms:
+  * [Sorting Algorithms](markdown/sortingalgo.md)
     * Selection Sort
     * Insertion Sort
     * Merge Sort
