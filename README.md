@@ -27,8 +27,8 @@ Course Logistics for Data Structures and Algorithm
 
 **3. Algorithms:**  
   * Searching Algorithms:
-    * Linear Search (for unsorted arrays)
-    * Binary Search (for sorted arrays)
+    * [Linear Search (for unsorted arrays)](markdown/linearsearch.md)
+    * [Binary Search (for sorted arrays)](markdown/BinarySearch.md)
   * Recursion and Analyzing Recursive Algorithms
   * Divide and Conquer Algorithms
   * Sorting Algorithms:
