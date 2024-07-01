@@ -65,14 +65,14 @@ To understand why, consider the following:
 
 2. **Average Position Calculation**: If we have a list of \(n\) elements, the target element could be in any of the \(n\) positions. To find the average number of comparisons needed, we consider the sum of the positions divided by the total number of positions.
 
-   The positions range from 1 to \(n\), and the sum of the first \(n\) natural numbers is \(\frac{n(n + 1)}{2}\). The average position is:
-   \[
-   \text{Average position} = \frac{1 + 2 + 3 + \ldots + n}{n} = \frac{\frac{n(n + 1)}{2}}{n} = \frac{n + 1}{2}
+   The positions range from 1 to \(n\), and the sum of the first \(n\) natural numbers is $\frac{n(n + 1)}{2}$. The average position is:
+  \[
+   $\text{Average position} = \frac{1 + 2 + 3 + \ldots + n}{n} = \frac{\frac{n(n + 1)}{2}}{n} = \frac{n + 1}{2}$
    \]
 
-3. **Average Comparisons**: On average, we need to make \(\frac{n + 1}{2}\) comparisons to find the target. As \(n\) grows larger, the \(\frac{1}{2}\) becomes less significant, and the number of comparisons is approximately \(\frac{n}{2}\).
+3. **Average Comparisons**: On average, we need to make $\frac{n + 1}{2}$ comparisons to find the target. As \(n\) grows larger, the $\frac{1}{2}$ becomes less significant, and the number of comparisons is approximately $\frac{n}{2}$.
 
-4. **Asymptotic Notation**: In Big-O notation, constant factors and lower-order terms are ignored because they have less impact on the growth rate as \(n\) increases. Therefore, \(\frac{n}{2}\) is simplified to \(O(n)\).
+4. **Asymptotic Notation**: In Big-O notation, constant factors and lower-order terms are ignored because they have less impact on the growth rate as \(n\) increases. Therefore, $\frac{n}{2}$ is simplified to \(O(n)\).
 
 So, the average case for linear search is \(O(n)\) because, on average, you have to search through half of the list to find the target element.
 

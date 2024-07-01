@@ -29,9 +29,19 @@ def merge_sort(arr):
             k += 1
 
 # Example usage
-arr = [38, 27, 43, 3, 9, 82, 10]
+import random
+import time
+
+arr = random_integers = [random.randint(1, 100000000) for _ in range(1000)]
+# arr = [38, 27, 43, 3, 9, 82, 10]
 print("Array before sorting")
 print(arr)
+start_time = time.time()
 merge_sort(arr)
+end_time = time.time()
+elapsed_time = end_time - start_time
+
 print("Array after merge sort")
 print(arr)
+
+print(f"Time taken by merge_sort: {elapsed_time} seconds")
