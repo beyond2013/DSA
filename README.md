@@ -32,11 +32,11 @@ Course Logistics for Data Structures and Algorithm
   * Recursion and Analyzing Recursive Algorithms
   * Divide and Conquer Algorithms
   * [Sorting Algorithms](markdown/sortingalgo.md)
-    * Selection Sort
-    * Insertion Sort
+    * [Selection Sort](markdown/SelectionSort.md)
+    * [Insertion Sort](markdown/InsertionSort.md)
     * Merge Sort
     * Quick Sort
-    * Bubble Sort 
+    * [Bubble Sort](markdown/BubbleSort.md)
     * Heap Sort
     * Shell Sort
     * Radix Sort (also known as Bucket Sort) 
