@@ -34,12 +34,12 @@ Course Logistics for Data Structures and Algorithm
   * [Sorting Algorithms](markdown/sortingalgo.md)
     * [Selection Sort](markdown/SelectionSort.md)
     * [Insertion Sort](markdown/InsertionSort.md)
-    * Merge Sort
-    * Quick Sort
+    * [Merge Sort](markdown/MergeSort.md)
+    * [Quick Sort](markdown/quicksort.md)
     * [Bubble Sort](markdown/BubbleSort.md)
-    * Heap Sort
-    * Shell Sort
-    * Radix Sort (also known as Bucket Sort) 
+    * [Heap Sort](markdown/heapsort.md)
+    * [Shell Sort](markdown/shellsort.md)
+    * [Radix Sort (also known as Bucket Sort)](markdown/radixsort.md)
   * Shortest Path Algorithms (related to Graphs)
   * Topological Sort (related to Directed Acyclic Graphs)  
 
