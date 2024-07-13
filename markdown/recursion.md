@@ -2,7 +2,11 @@
 
 ## Introduction to Recursion
 
-**Recursion** is a programming technique where a function calls itself directly or indirectly to solve a problem. The recursive function generally breaks down a problem into smaller sub-problems of the same type, solving each sub-problem recursively.
+**Recursion** is a programming technique where:
+- a function calls itself directly or indirectly,
+- to solve a problem.
+- The recursive function generally breaks down a problem into smaller sub-problems of the same type,
+- solving each sub-problem recursively.
 
 ## Key Components of Recursion
 
@@ -58,13 +62,13 @@ def fibonacci(n):
 
 ### Recurrence Relation
 
-The time complexity \( T(n) \) can be defined as:
-\[ T(n) = T(n-1) + T(n-2) + O(1) \]
+The time complexity $T(n)$ can be defined as:
+$T(n) = T(n-1) + T(n-2) + O(1)$
 
 ### Solving the Recurrence
 
 By solving this recurrence, we find that the time complexity is exponential:
-\[ T(n) = O(2^n) \]
+$T(n) = O(2^n)$
 
 ### Space Complexity
 
@@ -82,8 +86,8 @@ def factorial(n):
         return n * factorial(n - 1)
 ```
 
-- The depth of the recursion stack is \( n \).
-- Therefore, the space complexity is \( O(n) \).
+- The depth of the recursion stack is $n$.
+- Therefore, the space complexity is $O(n)$.
 
 ### Summary
 
