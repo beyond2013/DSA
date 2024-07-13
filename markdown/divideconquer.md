@@ -70,7 +70,7 @@ Merge(arr, left_half, right_half):
 
 To analyze the time complexity of divide and conquer algorithms, we often use recurrence relations. For example, the recurrence relation for merge sort is:
 
-$ T(n) = 2T\left(\frac{n}{2}\right) + O(n) $
+$T(n) = 2T\left(\frac{n}{2}\right) + O(n)$
 
 Using the Master Theorem, we can solve this recurrence to find that the time complexity of merge sort is $O(n \log n)$.
 
