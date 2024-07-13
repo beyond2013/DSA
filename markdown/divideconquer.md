@@ -63,21 +63,21 @@ Merge(arr, left_half, right_half):
 
 To analyze the time complexity of divide and conquer algorithms, we often use recurrence relations. For example, the recurrence relation for merge sort is:
 
-\[ T(n) = 2T\left(\frac{n}{2}\right) + O(n) \]
+$ T(n) = 2T\left(\frac{n}{2}\right) + O(n) $
 
-Using the Master Theorem, we can solve this recurrence to find that the time complexity of merge sort is \( O(n \log n) \).
+Using the Master Theorem, we can solve this recurrence to find that the time complexity of merge sort is $O(n \log n)$.
 
 ### Space Complexity
 
-The space complexity of divide and conquer algorithms depends on the extra space required for combining the sub-problems. For example, merge sort requires \( O(n) \) extra space for the temporary arrays used in merging.
+The space complexity of divide and conquer algorithms depends on the extra space required for combining the sub-problems. For example, merge sort requires $O(n)$ extra space for the temporary arrays used in merging.
 
 ### Examples of Divide and Conquer Algorithms
 
-1. **Merge Sort**: Efficiently sorts an array in \( O(n \log n) \) time.
-2. **Quick Sort**: Sorts an array by partitioning it around a pivot, with an average time complexity of \( O(n \log n) \).
-3. **Binary Search**: Searches for an element in a sorted array in \( O(\log n) \) time.
-4. **Strassen's Algorithm**: Multiplies two matrices faster than the conventional algorithm, with a time complexity of \( O(n^{2.81}) \).
-5. **Closest Pair of Points**: Finds the closest pair of points in a plane in \( O(n \log n) \) time.
+1. **Merge Sort**: Efficiently sorts an array in $O(n \log n)$ time.
+2. **Quick Sort**: Sorts an array by partitioning it around a pivot, with an average time complexity of $O(n \log n)$.
+3. **Binary Search**: Searches for an element in a sorted array in  $O(\log n)$ time.
+4. **Strassen's Algorithm**: Multiplies two matrices faster than the conventional algorithm, with a time complexity of $O(n^{2.81})$.
+5. **Closest Pair of Points**: Finds the closest pair of points in a plane in $O(n \log n)$ time.
 
 ### Advantages of Divide and Conquer
 
