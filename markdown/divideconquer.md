@@ -2,7 +2,14 @@
 
 ## Introduction to Divide and Conquer Algorithms
 
-**Divide and Conquer** is an algorithmic paradigm that breaks a problem into smaller sub-problems, solves each sub-problem recursively, and then combines the solutions to solve the original problem. This approach is particularly effective for problems that can be divided into independent and smaller instances of the same problem.
+**Divide and Conquer** is:
+ - an algorithmic paradigm that, 
+ - breaks a problem into smaller sub-problems,
+ - solves each sub-problem recursively, and then,
+ - combines the solutions to solve the original problem.
+ - This approach is particularly effective for problems that can be divided into 
+    + independent and 
+    + smaller instances of the same problem.
 
 ## Steps of Divide and Conquer
 
