@@ -16,7 +16,7 @@ Course Logistics for Data Structures and Algorithm
   * Queues  (Array and Linked List Implementations)
   * Dequeues
   * Priority Queues (Array and Linked List Implementations)
-  * Linked Lists (Singly, Doubly, Circular)
+  * [Linked Lists (Singly, Doubly, Circular)](markdown/linkedlists.md)
   * Trees and Tree Traversals (Preorder, Inorder, Postorder)
   * Binary Search Trees
   * Heaps
