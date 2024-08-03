@@ -63,11 +63,20 @@ public:
         {
             Node<T> *temp = head;
             head = head->next;
-            delete temp;
+            delete temp; // delete keyword is used to release dynamically allocated memroy using the new operator
             return;
         }
 
         Node<T> *temp = head;
+        /* the while loop searches for the data in the list
+           it will exit in 2 conditions
+              1. if the end of list is reached
+              2. if the data is found
+           on exiting the list a further check using if
+           tests if the loop exited upon reaching the end
+           of the list if so, it means that the data was not found
+           otherwise it would have exited due to a match
+        */
         while (temp->next != nullptr && temp->next->data != data)
         {
             temp = temp->next;
