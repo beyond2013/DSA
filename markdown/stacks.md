@@ -35,6 +35,32 @@ POP(STACK, TOP, ITEM)
 4. Return.
 ```
 
+## Implementing Stacks using linked list
+[Link to c++ implementation](../src/cprog/stackusinglinkedlist.cpp)
+
+### Explanation
+  1. Node Structure:
+     - Each node contains data and a pointer to the next node.
+
+  2. Stack Class:
+      - top: Pointer to the top node of the stack (head of the linked list).
+      - isEmpty(): Checks if the stack is empty.
+      - push(T data):
+         + Creates a new node with the given data.
+         + Sets the new node's next pointer to the current top.
+         + Updates top to point to the new node.
+      - pop():
+         + Checks for an empty stack.
+         + Removes the top node.
+         + Returns the data of the removed node.
+      - peek(): Returns the data at the top of the stack without removing it.
+  3. Advantages of Using Linked List for Stack
+    - Dynamic sizing: No need to pre-allocate a fixed size array.
+    - Efficient insertions and deletions: Operations can be performed in constant time O(1).
+    - Flexibility: Can be used for other data structures like queues and graphs.  
+
+By using a linked list, we effectively implement a stack with the required LIFO behavior. This approach provides flexibility and efficiency in managing stack operations.
+
 
 ## Using Stack as a tool to evaluate arithmetic expressions in reverse Polish notation
 ---
