@@ -42,6 +42,23 @@ In a circular linked list, the last node points back to the first node.
 
 [Link to c++ implementation](../src/cprog/linkedlist.cpp)
 
+### Summary of implementation
+
+1. **Node class:** Represents a single node with data and a pointer to the next node.
+2. **LinkedList class:** Represents the linked list with a pointer to the head node.
+3. **insertAtBeginning():** Inserts a new node at the beginning of the list.
+4. **insertAtEnd():** Inserts a new node at the end of the list.
+5. **deleteNode():** Deletes a node with the given data from the list.
+6. **printList():** Prints the elements of the linked list.
+
+This implementation provides a basic foundation for linked lists. You can extend it with additional functions like searching, reversing, and other operations as needed.
+
+**Remember:**
+* To use this code with different data types, replace `int` with the desired data type in the `LinkedList` and `Node` templates.
+* Proper memory management is essential to avoid memory leaks. Consider using smart pointers like `std::unique_ptr` for more robust implementations.
+
+This code offers a clear and efficient way to implement linked lists in C++ while adhering to object-oriented principles.
+
 ## Potential Applications of each type of linked list
 
 Linked lists are versatile data structures that can be used in various applications due to their dynamic nature. Here are some potential applications for each type of linked list:
