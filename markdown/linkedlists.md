@@ -38,6 +38,10 @@ In a circular linked list, the last node points back to the first node.
 
 [Link to implementation in C](../src/cprog/circularlist.c).
 
+## Implementation Using pointers in C++
+
+[Link to c++ implementation](../src/cprog/linkedlist.cpp)
+
 ## Potential Applications of each type of linked list
 
 Linked lists are versatile data structures that can be used in various applications due to their dynamic nature. Here are some potential applications for each type of linked list:
