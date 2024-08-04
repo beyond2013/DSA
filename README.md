@@ -13,7 +13,7 @@ Course Logistics for Data Structures and Algorithm
 
 **2. Data Structures:**  
   * [Stacks (Array and Linked List Implementations)](markdown/stacks.md)
-  * Queues  (Array and Linked List Implementations)
+  * [Queues  (Array and Linked List Implementations)](markdown/queues.md)
   * Dequeues
   * Priority Queues (Array and Linked List Implementations)
   * [Linked Lists (Singly, Doubly, Circular)](markdown/linkedlists.md)
