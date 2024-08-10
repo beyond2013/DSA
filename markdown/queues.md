@@ -25,7 +25,7 @@ A queue is a linear data structure that follows the **First In First Out (FIFO)*
 * The `isEmpty` and `isFull` functions check the queue's state.
 
 ## Implementation Using Linked List
-[link to implementation using linked list ](../src/cprog/queuearray.cpp)
+[link to implementation using linked list ](../src/cprog/queuelinkedlist.cpp)
 
 **Explanation:**
 * The `front` and `rear` pointers point to the first and last nodes respectively.
