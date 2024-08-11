@@ -19,8 +19,10 @@
 ## Implementation Using Arrays in C
 
 ### Singly Linked List
-
 In a singly linked list, each node points to the next node.
+
+![Image of Singly Linked List](../fig/Singly-Linked-List.png)
+
 
 [Link to c implementation of singly linked list](../src/cprog/singlylist.c)
 

@@ -14,7 +14,7 @@ public:
     Queue(int cap)
     {
         capacity = cap;
-        front = rear = -1;
+        front = rear = -1; // a = b = 2;
         array = new T[capacity];
     }
 
@@ -35,7 +35,12 @@ public:
             cout << "Queue Overflow\n";
             return;
         }
-        rear = (rear + 1) % capacity;
+        rear = (rear + 1) % capacity; // rear = 0
+        // = (-1 + 1)  % 10
+        // = 0 % 10
+        // = 0
+        cout << "\n 0 % 10 = " << 0 % 10 << endl;
+        cout << "\ninside enqueue value of rear = " << rear << endl;
         array[rear] = x;
         if (front == -1)
         {
@@ -75,7 +80,8 @@ public:
 
 int main()
 {
-    Queue<int> q(5); // Queue for integers
+
+    Queue<int> q(10); // Queue for integers
     q.enqueue(10);
     q.enqueue(20);
     q.enqueue(30);
