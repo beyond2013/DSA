@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 
 using namespace std;
 
@@ -32,13 +33,13 @@ public:
         Node<T> *temp = new Node<T>();
         temp->data = x;
         temp->next = NULL;
-        if (rear == NULL)
+        if (rear == NULL) // understanding the queue is empty
         {
             front = rear = temp;
             return;
         }
-        rear->next = temp;
-        rear = temp;
+        rear->next = temp; // old rear->next now points to temp
+        rear = temp;       // update rear
     }
 
     T dequeue()
@@ -50,8 +51,8 @@ public:
         }
         T item = front->data;
         Node<T> *temp = front;
-        front = front->next;
-        delete temp;
+        front = front->next; // old front update
+        delete temp;         // memory release
         if (front == NULL)
         {
             rear = NULL;
@@ -72,15 +73,19 @@ public:
 
 int main()
 {
-    Queue<int> q;
-    q.enqueue(10);
-    q.enqueue(20);
-    q.enqueue(30);
+    Queue<float> q;
+    q.enqueue(10.01);
+    q.enqueue(20.02);
+    q.enqueue(30.03);
 
     cout << q.dequeue() << endl; // Output: 10
     cout << q.peek() << endl;    // Output: 20
-
+    cout << q.dequeue() << endl;
+    cout << q.dequeue() << endl;
+    auto returnedval = q.dequeue();
+    cout << typeid(returnedval).name() << endl;
     Queue<string> q2;
+    cout << endl;
     q2.enqueue("hello");
     q2.enqueue("world");
 
