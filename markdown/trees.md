@@ -54,3 +54,6 @@ int height(Node* root) {
 * **Postorder:** Used for evaluating expressions in postfix notation, deleting a tree, and finding the height of a tree.
 
 Each traversal algorithm has its own unique applications depending on the specific task at hand. Understanding these algorithms is essential for effectively working with tree data structures.
+
+## Visual Animation of Preorder Postorder and Inorder traversal
+[dsvisualizer](https://dsvisualizer.isatvik.com/treetraversals)
