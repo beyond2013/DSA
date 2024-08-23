@@ -17,7 +17,7 @@ Course Logistics for Data Structures and Algorithm
   * [Dequeues (Double ended queues)](markdown/dequeue.md)
   * [Priority Queues (Array and Linked List Implementations)](markdown/priorityqueues.md)
   * [Linked Lists (Singly, Doubly, Circular)](markdown/linkedlists.md)
-  * Trees and Tree Traversals (Preorder, Inorder, Postorder)
+  * [Trees and Tree Traversals (Preorder, Inorder, Postorder)](markdown/trees.md)
   * Binary Search Trees
   * Heaps
   * M-way Trees 
