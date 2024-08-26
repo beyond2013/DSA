@@ -3,7 +3,10 @@
 - It's a non-linear data structure, meaning the elements are not arranged in a sequential order.
 - This structure allows for efficient representation and manipulation of data with hierarchical relationships. 
 
+
 ## Components of a Tree
+<img src="../fig/Tree.jpg" width="352" height="200" align="right">
+
 * **Node:** A basic unit of a tree that contains data.
 * **Edge:** A connection between two nodes.
 * **Root:** The topmost node in a tree.
