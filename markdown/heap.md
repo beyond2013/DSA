@@ -51,3 +51,5 @@ Explanation of the code is appended to the bottom as comments.
   -  heapify, 
 which are essential for using heaps in various applications. 
 + You can extend this implementation to include other heap operations as needed.
+## interactive visualization
+[visit this link for interactive visualization](https://www.cs.usfca.edu/~galles/visualization/Heap.html)
