@@ -19,7 +19,7 @@ Course Logistics for Data Structures and Algorithm
   * [Linked Lists (Singly, Doubly, Circular)](markdown/linkedlists.md)
   * [Trees and Tree Traversals (Preorder, Inorder, Postorder)](markdown/trees.md)
   * [Binary Search Trees](markdown/BST.md)
-  * Heaps
+  * [Heaps](markdown/heap.md)
   * M-way Trees 
   * Balanced Trees (e.g., AVL Trees, Red-Black Trees)
   * Graphs

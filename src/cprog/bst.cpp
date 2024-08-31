@@ -114,13 +114,22 @@ void inorder(Node *root)
 int main()
 {
     Node *root = nullptr;
-    root = insert(root, 50);
+    root = insert(root, 50); // notice the difference in call to insert in this line and the line below
     insert(root, 30);
     insert(root, 20);
     insert(root, 40);
     insert(root, 70);
-    insert(root, 60);
+    Node *temp = insert(root, 60);
+    std::cout << "insert returned temp whose key point to : " << temp->key << std::endl;
     insert(root, 80);
+
+    Node *target;
+    int target_val = 20;
+    target = search(root, target_val);
+    if (target == nullptr)
+        std::cout << "Element " << target_val << " Not in BST" << std::endl;
+    else
+        std::cout << "Element " << target_val << "Found" << std::endl;
 
     std::cout << "Inorder traversal of the BST: ";
     inorder(root);
