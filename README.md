@@ -20,8 +20,10 @@ Course Logistics for Data Structures and Algorithm
   * [Trees and Tree Traversals (Preorder, Inorder, Postorder)](markdown/trees.md)
   * [Binary Search Trees](markdown/BST.md)
   * [Heaps](markdown/heap.md)
-  * M-way Trees 
-  * Balanced Trees (e.g., AVL Trees, Red-Black Trees)
+  * [M-way Trees](markdown/mwaytrees.md)
+  * Balanced Trees 
+    * AVL Trees
+    * Red-Black Trees
   * Graphs
   * Adjacency Matrix and Adjacency List Implementations (for Graphs)  
 
