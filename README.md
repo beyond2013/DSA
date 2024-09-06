@@ -25,7 +25,7 @@ Course Logistics for Data Structures and Algorithm
     * AVL Trees
     * Red-Black Trees
   * Graphs
-  * Adjacency Matrix and Adjacency List Implementations (for Graphs)  
+    * Adjacency Matrix and Adjacency List Implementations (for Graphs)  
 
 **3. Algorithms:**  
   * Searching Algorithms:
@@ -46,8 +46,7 @@ Course Logistics for Data Structures and Algorithm
   * Topological Sort (related to Directed Acyclic Graphs)  
 
 **4. Advanced Concepts:**  
-  * Hashing and Indexing
-  * Open Addressing and Chaining (related to Hashing)
+  * [Hashing](markdown/hash.md)
   * Memory Management and Garbage Collection
 
 ## Course Assessment:
