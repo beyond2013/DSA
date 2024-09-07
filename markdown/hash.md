@@ -79,7 +79,7 @@ Let's assume we have a hash table of size 10 and the following keys: "apple", "o
 
 A **collision** occurs when two different keys hash to the same index in the hash table. There are several methods to handle collisions:
 
-#### 3.1 Open Addressing
+### 3.1 Open Addressing
 
 Open Addressing resolves collisions by probing or searching the hash table for the next available slot.
 
@@ -95,7 +95,7 @@ Open Addressing resolves collisions by probing or searching the hash table for t
   - Formula: `index = (hash1(key) + i * hash2(key)) % tableSize`.
   - Reduces clustering and improves distribution.
 
-#### 3.2 Chaining
+### 3.2 Chaining
 
 Chaining handles collisions using linked lists. Each slot in the hash table contains a pointer to a linked list of keys that hash to the same index.
 
