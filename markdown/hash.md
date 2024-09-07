@@ -17,7 +17,7 @@
 
 Hashing is a technique used to map data (keys) to an index in a fixed-size table called a **hash table**. 
 
-- **Hash Table**: A data structure that implements an associative array, a structure that can map keys to values.
+- **Hash Table**: A data structure that implements an [associative array](./associativeArray.md), a structure that can map keys to values.
 - **Hash Function**: A function that takes an input (or 'key') and returns an index in the hash table where the value is stored.
 
 ## Example of a Hash Function
