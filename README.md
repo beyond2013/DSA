@@ -58,12 +58,12 @@ Assignment:    15 marks
 
 ## Reference Materials:
 
-1. Algorithms 4rth Edition by Robert Sedgewick and Kevin Wayne  
-2. Data Structures and Algorithms in C++ by Adam Drozdek
-3. Data Structures and Algorithm Analysis in Java by Mark A. Weiss
-4. Data Structures and Abstractions with Java by Frank M. Carrano & Timothy M. Henry
-5. Data Structures and Algorithm Analysis in C++ by Mark Allen Weiss
-6. Java Software Structures: Designing and Using Data Structures by John Lewis and Joseph Chase
+1. [Algorithms 4rth Edition by Robert Sedgewick and Kevin Wayne](https://amzn.to/4drGB5i)
+2. [Data Structures and Algorithms in C++ by Adam Drozdek](https://amzn.to/44SQfMm)
+3. [Data Structures and Algorithm Analysis in Java by Mark A. Weiss](https://amzn.to/4kz67YT)
+4. [Data Structures and Abstractions with Java by Frank M. Carrano & Timothy M. Henry](https://amzn.to/44RsjZG)
+5. [Data Structures and Algorithm Analysis in C++ by Mark Allen Weiss](https://amzn.to/3Z0Mr7U)
+6. [Java Software Structures: Designing and Using Data Structures by John Lewis and Joseph Chase](https://amzn.to/3ZykNPH)
 
 ## Online Resources:
 
